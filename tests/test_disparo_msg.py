@@ -25,7 +25,7 @@ caption_html = (
     f"✅ <b>Por: R$ {mockup_produto['preco_atual']:,.2f}</b> "
     f"(-{mockup_produto['desconto']}% OFF)\n\n"
     f"⚡ <i>Preço promocional sujeito a alteração de estoque.</i>"
-)
+)#formatar valores para PT-BR.
 
 inline_keyboard = {
     "inline_keyboard":[
