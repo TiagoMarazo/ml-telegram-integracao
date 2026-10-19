@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+import time
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -47,5 +48,5 @@ def trocar_codigo_por_tokens():
     print(f"Refresh_Token: {dados.get('refresh_token')}")
     return True
 
-if __name__ == __main__:
+if __name__ == "__main__":
     trocar_codigo_por_tokens()
